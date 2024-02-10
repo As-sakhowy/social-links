@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    max-width: 1440px;
+    width:500px;
+    background-color: hsl(0, 0%, 8%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:100px auto;
+    /* border: 3px double green; */
+    padding:10px;
+    width: 375px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+}
+.wrapper{
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    margin: 10px ;
+    /* border: 1px dotted darkblue; */
+}
+header{
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0;
+}
+.social-links{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+button{
+    width: 305px;
+    background-color:hsl(0, 0%, 20%) ;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1.3rem;
+}
+p{
+    font-size: 0.85rem;
+    padding-bottom: 2rem;
+}
+h1,h3,p,img{
+    padding-top: 12px;
+}
+.white{
+   font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.big_white{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.medium_white{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.green{
+    color: hsl(75, 94%, 57%);
+}
+img{
+    border-radius: 50%;
+    padding-bottom: 1.5rem;
+    width: 40%;
+}
+button a{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    }
+button a:focus{
+        color: green;
+     } 
+
+@media screen {
+    body{
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    button:hover{
+        background-color: hsl(75, 94%, 57%);
+    }   
+}
